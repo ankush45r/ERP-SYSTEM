@@ -9,7 +9,7 @@ const AddProduct = () => {
         event.preventDefault();
        console.log(event.target.type.value)
         const product = {
-            id: a.generateRandomId(8), // Increase the length of ID for better uniqueness
+            id: a.generateRandomId(8),
             type: event.target.type.value,
             title: event.target.title.value,
             content: event.target.content.value,
