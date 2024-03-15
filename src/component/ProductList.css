@@ -1,0 +1,16 @@
+.cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+@media only screen and (max-width: 500px) {
+    .cards {
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

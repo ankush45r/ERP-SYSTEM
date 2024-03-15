@@ -1,0 +1,12 @@
+.navbar{
+    top: 0px;
+    color: blue;
+}
+
+#root{
+    top: 2px;
+}
+.color:hover{
+    background-color: yellow;
+    color: white;
+}
